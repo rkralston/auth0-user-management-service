@@ -103,7 +103,7 @@ function apiReverseProxy (req, res, next) {
 app.get('/users', apiReverseProxy);
 app.post('/users', apiReverseProxy);
 app.get('/users/:id', apiReverseProxy);
-app.del('/users/:id', apiReverseProxy);
+app.delete('/users/:id', apiReverseProxy);
 app.patch('/users/:id', apiReverseProxy);
 
 // errors
